@@ -6,13 +6,13 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 
-	log "github.com/sirupsen/logrus"
-
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	fiber "github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
+
+	fiber "github.com/gofiber/fiber/v2"
+	log "github.com/sirupsen/logrus"
 )
 
 type AWS struct {
