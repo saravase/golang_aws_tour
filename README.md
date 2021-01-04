@@ -1,1 +1,0 @@
-# golang_aws_tour
